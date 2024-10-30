@@ -1,1 +1,1 @@
-# DeepLearningProteinMiniProject
+# Deep Learning Protein Mini Project
