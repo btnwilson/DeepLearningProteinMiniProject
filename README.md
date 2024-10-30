@@ -8,10 +8,10 @@ This protein backbone was created using RFDiffusion, a protein design network de
 ## Results
 One protein backbone and eight potential sequences to fill the backbone were generated. Below are images of the backbone and the predicted structure of the protein with the best amino acid sequence to fill the provided backbone. The first two images are the backbone structure from a few different angles and the second two are the best sequence fit from a few angles.
 
-![Backbone 1](High Quality Backbone.png)
-![Backbone 2](High Quality Backbone 2.png)
-![Best Fit 1](Best Sequence Fit.png)
-![Best Fit 2](Best Sequence Fit 2.png)
+![Backbone 1](High%20Quality%20Backbone.png)
+![Backbone 2](High%20Quality%20Backbone%202.png)
+![Best Fit 1](Best%20Sequence%20Fit.png)
+![Best Fit 2](Best%20Sequence%20Fit%202.png)
 
 The selected sequence is  SEEEEERERALKEIIEETRRELKAAKAKHGKVVVVLIMASSTLEPEFILELSKALIKEMKSLFPNVVLIIVVVGLAPASLLARIRDVSLELAKYAKSLGIKVIVIVGNENEAVFVPAFEALGVEVIVDRTIIEIAAEELGLSEEEVLARFAAAAELLDELFAADPSLRERYARLDVAGATELLLERLRELFGAKVERHERLITVEVERVLTPDERRRVTAILLTPEAAREVVERLVDLVVDLILEKIAEGHNVLVLVFTPTIALAREVAALFEERRPLLEEAGAAVIIRLVARDPDTFLI. The output metrics of the prediction are mpnn:1.007, plddt:0.646, ptm:0.639, pae:14.112, rmsd:6.675. MPNN (Message Passing Neural Network Score) indicates confidence in the model's predicted protein structure. Values closer to 1 suggest a better alignment with expected structures, aiming for minimal deviation. pLDDT (Predicted Local Distance Difference Test) reflects the confidence of individual amino acids in the predicted structure again scores closer to 1 mean higher confidence. Predicted Template Modeling Score assesses the quality of the alignment between the predicted model and a template structure. The PAE and RSMD quantify slightly different aspects of the expected distance error between the predicted model and the actual structure, so the goal is for this value to be as small as possible. The selected sequence performed best in every category out of the other sequences developed by my iteration of MPNN. 
 
